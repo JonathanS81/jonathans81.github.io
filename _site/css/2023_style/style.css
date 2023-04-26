@@ -65,6 +65,15 @@ p.large {
     font-size: 120%;
 }
 
+a.alt-link {
+    color:#485acc; !important;
+}
+
+a:hover.alt-link {
+    color:#12dfac; !important;
+}
+
+
 a,
 a:hover,
 a:focus,

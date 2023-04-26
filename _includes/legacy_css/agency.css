@@ -58,6 +58,15 @@ p.large {
     font-size: 120%;
 }
 
+a.alt-link {
+    color:#{{ site.data.template.color.secondary-dark }}; !important;
+}
+
+a:hover.alt-link {
+    color:#{{ site.data.template.color.primary }}; !important;
+}
+
+
 a,
 a:hover,
 a:focus,
