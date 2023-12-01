@@ -1,0 +1,11 @@
+- transport: En voiture
+  detail: "Parking le plus proche : QPark Gambetta (en sous-sol de l’Artplexe Canebière).<br >Réduction pour les visiteurs sur le site de l’Artplexe Canebière."
+  duree: ""
+
+- transport: En train 
+  detail: "Gare de Marseille Saint-Charles à 850m"
+  duree: "Depuis Paris : 3h15 de TGV sans correspondance."
+
+- transport: En avion
+  detail: "Aéroport de Marseille Provence à 26km"
+  duree: "30m de trajet en voiture ou 45mn en transports en commun"
