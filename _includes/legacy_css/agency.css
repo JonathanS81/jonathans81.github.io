@@ -404,6 +404,10 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+header .intro-text img{
+    width:90%;
+}
+
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
@@ -424,8 +428,12 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {    
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        /*padding-bottom: 200px;*/
     }
+
+    header .intro-text img{
+    width:80%;
+}
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
