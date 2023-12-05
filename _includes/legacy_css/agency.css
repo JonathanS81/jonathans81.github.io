@@ -23,7 +23,7 @@ body {
     margin: 0;
     padding-bottom: 90px;
     min-height: 100%;
-    width: 100%;
+    /*width: 100%;*/
     overflow-x: hidden;
     font-family: "Inconsolata","Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.bc-blue }};
@@ -39,6 +39,16 @@ body {
   body {
       padding-bottom: 150px;
   }
+  .navbar-nav {
+   background-color: rgb(34,34,34,0.98);
+   text-align: right;
+  }
+
+  .submenu_content {
+    width:48%;
+    padding-right:10px;
+    margin-left:50%;
+}
 }
 
 .text-muted {
