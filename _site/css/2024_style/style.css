@@ -368,7 +368,15 @@ fieldset[disabled] .btn-xl.active {
   
 }
 
+@media (max-width: 990px) {
+    .test {
+        margin-bottom: 40px;
+    }
 
+        .testlast {
+        margin-bottom: -30px;
+    }
+}
 
 @media(min-width:768px) {
     .navbar-default-color {
